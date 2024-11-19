@@ -1,0 +1,101 @@
+
+* {
+    margin: px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f87e379d; /* Cor de fundo */
+    color: #f8f3f3; /* Cor do texto */
+    line-height: 1.4; /* Altura da linha */
+    padding: 100px; /* Preenchimento */
+    margin: 100px;
+    padding: 100px;
+    height: 120vh; /* Faz o body ocupar a altura total da viewport */
+    background-image: url(img/energia_renovavel.jpg); /* Caminho para sua imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 150px; /* Tamanho do texto */
+    text-align: left; /* justificar o texto*/
+    color: whitesmoke; /* Cor do título */
+    font-size: x-large; /* Tamanho do título */
+    text-align: left center; /* Centraliza o texto */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    border: 10px rgb(8, 8, 8);
+}
+/* Estilo do subtítulo */
+h2 {
+    font-size: 1.8em; /* Tamanho do subtítulo */
+    color: whitesmoke; /* Cor do subtítulo */
+    margin: 20px 0; /* Margem acima e abaixo */
+}
+/* Estilo para parágrafos */
+p {
+    font-size: 25px; /* Tamanho da fonte */
+    margin: 7px 0; /* Margem acima e abaixo */
+    text-align: left justify;
+    color: whitesmoke;
+}
+/* Container para o conteúdo */
+.container {
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o container */
+    background: rgba(36, 36, 36, 0.644); /* Cor de fundo do container */
+    padding: 20px; /* Preenchimento do container */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(36, 35, 34, 0.658); /* Sombra */
+}
+
+button {
+    
+
+
+  
+background-color: #020202; /* Cor de fundo  */
+    color: white;              /* Cor do texto (branco) */
+    padding: 20px 10px;        /* Espaçamento interno (10px de altura e 20px de largura) */
+    border-radius: 20px;        /* Bordas arredondadas */    
+    cursor: pointer;           /* Cursor de mão ao passar o mouse */
+    transition: 0.5s; /* Animação suave ao passar o mouse */
+    width: 220px;
+        top: 100px;  /* Distância do topo */
+        left: 2000px;  /* Distância da borda esquerda */
+}
+button:hover {
+    
+    
+
+ 
+    background-color: #f0f32588; /* Cor de fundo alterada ao passar o mouse */
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #020202;
+        padding: 10px 30px;
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        top: 0;
+        z-index: 1000;
+    }
+    .navbar.logo img{
+        height: 30px;
+        width: auto;
+    }
+    .nav-links{
+        list-style: none;
+        display: flex;
+    }
+    .nav-links li{
+        margin: 0 15px;
+    }
